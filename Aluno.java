@@ -6,9 +6,6 @@ public class Aluno {
     Curso curso;
 
     // construtores
-    public Aluno() {
-    }
-
     public Aluno(String matricula) {
         this.matricula = matricula;
     }

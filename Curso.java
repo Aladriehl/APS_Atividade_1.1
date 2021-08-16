@@ -6,9 +6,7 @@ public Class Curso{
     int codigo;
     HashMap<Integer,String> matriculados =new HashMap<Integer,String>();
     
-    //construtores
-    public Curso(){}
-    
+    //construtores    
     public Curso(int codigo,String nome){
         this.codigo=codigo;
         this.nome=nome;
